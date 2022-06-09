@@ -13,7 +13,7 @@ p {
 .title {
     display: flex;
     justify-content: center;
-    background-color: #004D40;
+    background-color: #212121;
     width: 100%;
 }
 
@@ -23,7 +23,7 @@ p {
     align-items: center;
     overflow: auto;
     padding: 1rem;
-    background-color: #26A69A;
+    background-color: #26A69A20;
 }
 
 .main {
@@ -42,6 +42,20 @@ p {
     background-color: #424242;
 }
 
+#ingredients {
+    padding: 1rem;
+    background-color: #26A69A10;
+}
+
+#directions {
+    padding: 1rem;
+    background-color: #26A69A10;
+}
+
+#separator {
+    background-color: #424242;
+}
+
 .links,.clicky {
     text-align: center;
     font-size: 20px;
@@ -55,7 +69,13 @@ p {
 }
 
 .clicky {
+    align-content: center;
     color: #BDBDBD;
+}
+
+#centerlinks {
+    align-content: center;
+    justify-content: center;
 }
 
 ul {
