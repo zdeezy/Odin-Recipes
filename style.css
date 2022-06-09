@@ -58,12 +58,6 @@ p {
     color: #BDBDBD;
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
-    align-content: center;
-}
-
 ul {
     list-style: none;
     color: #BDBDBD;
